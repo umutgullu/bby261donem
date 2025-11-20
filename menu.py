@@ -15,7 +15,7 @@ def menuyu_goster(root,oyunu_baslat,skor_penceresi):
     kurallar = """NASIL OYNANIR?
     1. Yeşil kutuları bulmaya çalış.
     2. Kırmızı mayınlara basarsan yanarsın!
-    3. Sayılar etraftaki mayın sayısını gösterir.
+    3. Sarılar etrafta mayın sayısını gösterir.
     4. Şüphelendiğin yere sağ tıklayıp işaretle (Yakında!)."""
 
     lbl_kurallar = tk.Label(menu_pencere, text=kurallar, font=("Arial", 10), justify="center", fg="darkblue")
